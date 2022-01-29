@@ -9,7 +9,7 @@ Source code for my [tutorial about rpg.js on YouTube](https://www.youtube.com/pl
 
 ```
 $ npm install
-$ npm build && npm start
+$ npm run build && npm start
 ```
 
 ## Credits & Links

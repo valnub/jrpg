@@ -2,7 +2,7 @@
 
 Source code for my [tutorial about rpg.js on YouTube](https://www.youtube.com/playlist?list=PL40eI71mtCmaa_5sV8T3pNwMaYt1S3mGT)
 
-<a href="https://www.youtube.com/playlist?list=PL40eI71mtCmaa_5sV8T3pNwMaYt1S3mGT"><img width="50%" style="width: 50%" src="https://user-images.githubusercontent.com/3787662/151667904-55ac2c43-a013-41fe-ae9d-4495d0817cd3.jpg" alt="rpg.js tutorial"></a>
+<a href="https://www.youtube.com/playlist?list=PL40eI71mtCmaa_5sV8T3pNwMaYt1S3mGT"><img width="50%" style="width: 50%" src="https://user-images.githubusercontent.com/3787662/151682163-5125951c-50e7-4f43-a8c2-b76a04d1b398.jpg" alt="rpg.js tutorial"></a>
 
 
 ## Build & Run

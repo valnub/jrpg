@@ -10,8 +10,8 @@ const frameY = (direction) => {
 };
 
 @Spritesheet({
-  id: 'hero', // id (mandatory)
-  image: require('./assets/hero.png'), // relative path of image
+  id: 'sidechar', // id (mandatory)
+  image: require('./assets/sidechar.png'), // relative path of image
   framesWidth: 3, // number of frames of the image across the width
   framesHeight: 4, // number of frames of the image across the height
   width: 46, // width of image
@@ -26,11 +26,11 @@ const frameY = (direction) => {
       animations: (direction) => [
         [
           { time: 0, frameX: 0, frameY: frameY(direction) },
-          { time: 3, frameX: 1, frameY: frameY(direction) },
-          { time: 6, frameX: 2, frameY: frameY(direction) },
+          { time: 10, frameX: 1, frameY: frameY(direction) },
+          { time: 20, frameX: 2, frameY: frameY(direction) },
         ],
       ],
     },
   },
 })
-export class HeroCharacter {}
+export class SideChar {}

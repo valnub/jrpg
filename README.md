@@ -7,6 +7,8 @@ Source code for my [tutorial about rpg.js on YouTube](https://www.youtube.com/pl
 
 ## Build & Run
 
+Important: You must run this on Node version 14!
+
 ```
 $ npm install
 $ npm run build && npm start

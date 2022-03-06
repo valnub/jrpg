@@ -6,5 +6,6 @@ import { WelcomeEvent } from '../events/welcome-event';
   file: require('./tmx/medieval.tmx'),
   name: 'Town', // optional
   events: [{ event: WelcomeEvent, x: 200, y: 60 }],
+  sounds: ['town'],
 })
 export class MedievalMap extends RpgMap {}

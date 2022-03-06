@@ -13,4 +13,11 @@ export const player: RpgPlayerHooks = {
   onJoinMap(player: RpgPlayer) {
     player.hp = 500;
   },
+
+  onInput(player: RpgPlayer, data: { input: any }) {
+    if (data.input == 'action') {
+      player.playSound('hit');
+      player.showAnimation('herohit', 'default', true);
+    }
+  },
 };
